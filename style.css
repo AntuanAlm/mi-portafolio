@@ -1,5 +1,5 @@
 /* ========================
-   RESET & BASE
+  RESET & BASE
 ======================== */
 * {
   margin: 0;
@@ -14,15 +14,15 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
-  background-color: #f4f6f8;
-  color: #1f1f1f;
+  background-color: #fff9f4;
+  color: #22223b;
 }
 
 /* ========================
-   HEADER
+  HEADER
 ======================== */
 header {
-  background: linear-gradient(90deg, #4b6cb7, #182848);
+  background: linear-gradient(90deg, #ff6f61, #36cfc9);
   color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -50,12 +50,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd369;
+  color: #ffe066;
   transform: translateY(-2px);
 }
 
 /* ========================
-   HERO
+  HERO
 ======================== */
 .hero {
   display: flex;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .hero-texto h1 span {
-  color: #4b6cb7;
+  color: #ff6f61;
 }
 
 .hero-texto p {
@@ -88,22 +88,22 @@ nav a:hover {
 }
 
 .hero img {
-    border-radius: 16px;
-    max-width: 280px;
-    height: auto;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    margin-left: 3rem;
-    align-self: flex-end;
+   border-radius: 16px;
+   max-width: 280px;
+   height: auto;
+   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+   transition: transform 0.4s ease, box-shadow 0.4s ease;
+   margin-left: 3rem;
+   align-self: flex-end;
 }
 
 .hero img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
+   transform: scale(1.05);
+   box-shadow: 0 12px 24px rgba(0,0,0,0.25);
 }
 
 /* ========================
-   BOTONES
+  BOTONES
 ======================== */
 .btn,
 .btn-card,
@@ -111,38 +111,38 @@ nav a:hover {
   display: inline-block;
   padding: 0.85rem 2rem;
   margin-top: 2rem;
-  background: linear-gradient(135deg, #4b6cb7, #182848);
+  background: linear-gradient(135deg, #ff6f61, #36cfc9);
   color: #fff;
   border-radius: 12px;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
   border: none;
-  box-shadow: 0 6px 16px rgba(75, 108, 183, 0.25);
+  box-shadow: 0 6px 16px rgba(255, 111, 97, 0.18);
   transition: all 0.35s ease;
 }
 
 .btn:hover,
 .btn-card:hover,
 .contacto button:hover {
-  background: linear-gradient(135deg, #182848, #4b6cb7);
+  background: linear-gradient(135deg, #36cfc9, #ff6f61);
   transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 8px 20px rgba(24, 40, 72, 0.35);
+  box-shadow: 0 8px 20px rgba(54, 207, 201, 0.25);
 }
 
 /* ========================
-   PROYECTOS
+  PROYECTOS
 ======================== */
 .proyectos {
   padding: 5rem 2rem;
-  background: #f4f6f8;
+  background: #f0faff;
   text-align: center;
 }
 
 .proyectos h2 {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  color: #1f1f1f;
+  color: #22223b;
 }
 
 .grid-proyectos {
@@ -183,90 +183,90 @@ nav a:hover {
 }
 
 #parrafo {
-    margin-top: 2.5rem;
-    font-size: 1.12rem;
-    color: #4b6cb7;
-    background: #e0e7ff;
-    padding: 1rem 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(75, 108, 183, 0.08);
-    display: inline-block;
+   margin-top: 2.5rem;
+   font-size: 1.12rem;
+   color: #36cfc9;
+   background: #e0f7fa;
+   padding: 1rem 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0 2px 8px rgba(54, 207, 201, 0.08);
+   display: inline-block;
 }
 
 /* ========================
-   SOBRE MÍ
+  SOBRE MÍ
 ======================== */
 .sobre-mi {
-    padding: 5rem 2rem;
-    background: #e6f7f1;
-    text-align: center;
-    border-radius: 16px;
-    box-shadow: 0 6px 18px rgba(75, 108, 183, 0.10);
+   padding: 5rem 2rem;
+   background: #fff9f4;
+   text-align: center;
+   border-radius: 16px;
+   box-shadow: 0 6px 18px rgba(255, 111, 97, 0.10);
 }
 
 .sobre-mi h2 {
-    font-size: 2.3rem;
-    margin-bottom: 1.2rem;
-    color: #1f1f1f;
-    letter-spacing: 1px;
+   font-size: 2.3rem;
+   margin-bottom: 1.2rem;
+   color: #22223b;
+   letter-spacing: 1px;
 }
 
 .sobre-mi p {
-    max-width: 850px;
-    margin: 0.7rem auto 0.7rem auto;
-    font-size: 1.18rem;
-    color: #333;
-    line-height: 1.7;
+   max-width: 850px;
+   margin: 0.7rem auto 0.7rem auto;
+   font-size: 1.18rem;
+   color: #333;
+   line-height: 1.7;
 }
 
 .sobre-mi ul {
-    list-style: none;
-    padding: 0;
-    margin: 1.5rem auto 0 auto;
-    max-width: 700px;
-    font-size: 1.08rem;
-    color: #444;
-    text-align: left;
+   list-style: none;
+   padding: 0;
+   margin: 1.5rem auto 0 auto;
+   max-width: 700px;
+   font-size: 1.08rem;
+   color: #444;
+   text-align: left;
 }
 
 .sobre-mi ul li {
-    margin-bottom: 0.7rem;
-    padding-left: 1.2rem;
-    position: relative;
+   margin-bottom: 0.7rem;
+   padding-left: 1.2rem;
+   position: relative;
 }
 
 .sobre-mi ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #4b6cb7;
-    font-size: 1.2rem;
-    top: 0;
+   content: "•";
+   position: absolute;
+   left: 0;
+   color: #ff6f61;
+   font-size: 1.2rem;
+   top: 0;
 }
 
 .habilidades {
-    margin-top: 2.5rem;
+   margin-top: 2.5rem;
 }
 
 .habilidades i {
-    font-size: 2.3rem;
-    margin: 0.7rem;
-    transition: transform 0.6s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
-    color: #4b6cb7;
-    background: #fff;
-    border-radius: 8px;
-    padding: 0.5rem 0.7rem;
-    box-shadow: 0 2px 8px rgba(75, 108, 183, 0.08);
+   font-size: 2.3rem;
+   margin: 0.7rem;
+   transition: transform 0.6s cubic-bezier(.68,-0.55,.27,1.55), color 0.3s;
+   color: #36cfc9;
+   background: #fff;
+   border-radius: 8px;
+   padding: 0.5rem 0.7rem;
+   box-shadow: 0 2px 8px rgba(54, 207, 201, 0.08);
 }
 
 .habilidades i:hover {
-    transform: rotate(360deg) scale(1.18);
-    color: #182848;
-    background: #e0e7ff;
+   transform: rotate(360deg) scale(1.18);
+   color: #ff6f61;
+   background: #e0f7fa;
 }
 
 /* ========================
-   CONTACTO
+  CONTACTO
 ======================== */
 .contacto {
   padding: 5rem 2rem;
@@ -291,23 +291,23 @@ nav a:hover {
   gap: 1rem;
   max-width: 450px;
   margin: auto;
-  background: #f0f4f8;
+  background: #f0faff;
   padding: 2.2rem 1.5rem;
   border-radius: 16px;
-  box-shadow: 0 6px 16px rgba(75, 108, 183, 0.15);
+  box-shadow: 0 6px 16px rgba(54, 207, 201, 0.15);
 }
 
 .contacto label {
   text-align: left;
   font-weight: 500;
-  color: #1f1f1f;
+  color: #22223b;
   margin-bottom: 0.3rem;
 }
 
 .contacto input,
 .contacto textarea {
   padding: 0.85rem;
-  border: 1px solid #ccc;
+  border: 1px solid #36cfc9;
   border-radius: 10px;
   font-size: 1rem;
   background: #fff;
@@ -316,9 +316,9 @@ nav a:hover {
 
 .contacto input:focus,
 .contacto textarea:focus {
-  border-color: #4b6cb7;
+  border-color: #ff6f61;
   outline: none;
-  box-shadow: 0 0 8px rgba(75, 108, 183, 0.25);
+  box-shadow: 0 0 8px rgba(255, 111, 97, 0.25);
 }
 
 .contacto button[type="submit"] {
@@ -332,20 +332,20 @@ nav a:hover {
 .redes a {
   font-size: 2.2rem;
   margin: 0 0.5rem;
-  color: #ffd369;
+  color: #ffe066;
   transition: transform 0.3s ease, color 0.3s;
 }
 
 .redes a:hover {
   transform: scale(1.25);
-  color: #ffb84d;
+  color: #ff6f61;
 }
 
 /* ========================
-   FOOTER
+  FOOTER
 ======================== */
 footer {
-  background: #182848;
+  background: #22223b;
   color: white;
   text-align: center;
   padding: 1.2rem;
@@ -353,101 +353,101 @@ footer {
 }
 
 /* ========================
-    RESPONSIVE
+   RESPONSIVE
 ======================== */
 
 @media (max-width: 1024px) {
   .hero {
-      flex-direction: column;
-      padding: 3rem 1rem;
+    flex-direction: column;
+    padding: 3rem 1rem;
   }
   .hero img {
-      margin-left: 0;
-      margin-top: 2rem;
-      max-width: 220px;
-      width: 100%;
-      height: auto;
-      object-fit: cover;
+    margin-left: 0;
+    margin-top: 2rem;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
   .hero-texto h1 {
-      font-size: 2.1rem;
+    font-size: 2.1rem;
   }
   .proyectos,
   .sobre-mi,
   .contacto {
-      padding: 3rem 1rem;
+    padding: 3rem 1rem;
   }
   .grid-proyectos {
-      gap: 1.5rem;
+    gap: 1.5rem;
   }
 }
 
 /* Móviles */
 @media (max-width: 600px) {
   header {
-      flex-direction: column;
-      padding: 1rem 0.5rem;
-      text-align: center;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    text-align: center;
   }
   nav {
-      margin-top: 0.7rem;
+    margin-top: 0.7rem;
   }
   nav a {
-      margin-left: 0.8rem;
-      font-size: 1rem;
+    margin-left: 0.8rem;
+    font-size: 1rem;
   }
   .logo {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
   .hero {
-      padding: 2rem 0.5rem;
+    padding: 2rem 0.5rem;
   }
   .hero-texto h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
   .hero-texto p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
   .hero img {
-      max-width: 120px;
-      width: 100%;
-      height: auto;
-      margin-top: 1.2rem;
-      margin-left: 0;
-      object-fit: cover;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    max-width: 120px;
+    width: 100%;
+    height: auto;
+    margin-top: 1.2rem;
+    margin-left: 0;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
   .card {
-      padding: 1rem;
+    padding: 1rem;
   }
   .card h3 {
-      font-size: 1.05rem;
+    font-size: 1.05rem;
   }
   .sobre-mi h2,
   .proyectos h2,
   .contacto h2 {
-      font-size: 1.3rem;
+    font-size: 1.3rem;
   }
   .sobre-mi p,
   .contacto p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
   .habilidades i {
-      font-size: 1.5rem;
-      padding: 0.3rem 0.4rem;
+    font-size: 1.5rem;
+    padding: 0.3rem 0.4rem;
   }
   .contacto form {
-      padding: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
   }
   #parrafo {
-      font-size: 1rem;
-      padding: 0.7rem 1rem;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
   }
   .redes a {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
   footer {
-      font-size: 0.85rem;
-      padding: 0.7rem;
+    font-size: 0.85rem;
+    padding: 0.7rem;
   }
 }
